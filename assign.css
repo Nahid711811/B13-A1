@@ -198,3 +198,53 @@ h5{
     font-weight: 400;
 }
 
+/* section 2: brain with key points */
+#forth-part{
+    padding-top: 120px;
+     width: 1600px;
+    height: 740px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:60px;
+    background-color: #ffffff;
+   
+}
+#forth-part .images{
+    width: 600px;
+    border-radius: 12px;
+}
+#forth-part .content{
+    width: 700px;
+    gap: 40px;
+}
+.content .head-text{
+    font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+color: #30b868;
+margin-bottom: 16px;
+}
+.content .cont-head{
+    font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+}
+.content .cont-head-desc{
+    margin-top:30px;
+    font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+}
+.content .desc-cont-line{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:16px;
+}
+.content .desc-cont-line .desc-line{
+    display: flex;
+    gap:5px;
+}
