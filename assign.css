@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+}
+.menu a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #30b868;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: white;
+    align-items: center;
+
+}
+
+
+header{
+    background-color: #ffffff;
+}
+nav{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner{
+    background-image: url('./images/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+     width:100%;
+     position: relative;
+}
+.banner-content{
+  width: 70%;
+  height: 60%;
+   position: absolute;
+   left: 15%;
+   top: 20%;
+   color:white;
+   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+h5{
+    color: rgba(255, 255, 255, 0.67);
+}
+.banner-content h1{
+    font-size: 55px;
+    color: #ffffff;
+     font-family: "Inter", sans-serif;
+}
+#talking{
+    color:#30B868;
+
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+#first{
+    background-color: #30B868;
+ color: rgba(255, 255, 255, 0.87);
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+#second{
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 4px;
+   color: rgba(255, 255, 255, 0.87);
+    border-color:rgba(255, 255, 255, 0.67); ;
+    
+    background-color: transparent;
+}
+#rd{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+}
+.early{
+    background-color: white;
+    border-radius: 10px;
+    border-style: none;
+    color: green;
+    padding: 7px 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.card-header{
+    text-align: center;
+}
+
+.card{
+    width: 300px;
+    border: 2px solid cornflowerblue;
+    /* border-radius: 10px; */
+    padding: 60px 20px;
+    /* text-align: left; */
+    /* box-shadow: 10px 10px 10px rgba(207, 35, 35, 0.041); */
+}
